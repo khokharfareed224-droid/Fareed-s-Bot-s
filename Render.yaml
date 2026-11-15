@@ -1,0 +1,6 @@
+services:
+    - type: web
+    name: fareeds-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
