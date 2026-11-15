@@ -14,7 +14,7 @@ async function startBot() {
   sock.ev.on("creds.update", saveCreds);
 
   if (!sock.authState.creds.registered) {
-    const num = "923XXXXXXXXX";
+    const num = "923182946561";
     setTimeout(async () => {
       let code = await sock.requestPairingCode(num);
       console.log("PAIRING CODE:", code);
